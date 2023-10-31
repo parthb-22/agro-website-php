@@ -100,22 +100,7 @@ session_start();
                         <li> <a href="dashboard.php"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
                         <li class="nav-label">Log</li>
                         <li> <a href="all_users.php">  <span><i class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
-                        <!-- <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
-                            <ul aria-expanded="false" class="collapse">
-								<li><a href="all_restaurant.php">All Restaurants</a></li>
-								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
-                                
-                            </ul>
-                        </li>
-                      <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery" aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
-                            <ul aria-expanded="false" class="collapse">
-								<li><a href="all_menu.php">All Menues</a></li>
-								<li><a href="add_menu.php">Add Menu</a></li>
-                              
-                                
-                            </ul>
-                        </li> -->
+
 						 <li> <a href="all_orders.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Orders</span></a></li>
 						 <li> <a href="all_contact_forms.php"><i class="fa fa-address-book" aria-hidden="true"></i><span>Contact Forms</span></a></li>
                          
@@ -143,8 +128,8 @@ session_start();
                                     <thead class="thead-dark">
                                             <tr>
                                                 <th>Username</th>
-                                                <th>FirstName</th>
-                                                <th>LastName</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
                                                 <th>Email</th>
                                                 <th>Phone</th>
 												<th>Address</th>												
