@@ -39,7 +39,7 @@
         <h2 class="mb-4"><i class="fas fa-shopping-cart"></i> Checkout</h2>
 
         <!-- Shipping Information Form -->
-        <form method="post" action="place_order.php">
+        <form method="POST" action="place_order.php">
             <div class="mb-3">
                 <label for="name" class="form-label">Full Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -49,16 +49,36 @@
                 <textarea class="form-control" id="address" name="address" required></textarea>
             </div>
             <div class="mb-3">
-                <label for "phone" class="form-label">Phone Number</label>
+                <label for="phone" class="form-label">Phone Number</label>
                 <input type="tel" class="form-control" id="phone" name="phone" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
-            <button type="submit" class="btn btn-primary">Place Order</button>
+            <!-- Payment Method Radio Buttons -->
+            <div class="mb-3">
+                <label for="payment" class="form-label">Payment Method :</label>
+                <!-- <div class="form-check">
+                    <input class="form-check-input" type="radio" name="payment" id="creditCard" value="Credit Card">
+                    <label class="form-check-label" for="creditCard">Credit Card</label>
+                </div> -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="payment" id="cashOnDelivery" value="Cash on Delivery" checked>
+                    <label class="form-check-label" for="cashOnDelivery">Cash On Delivery</label>
+                </div>
+                <div class="text-center mt-3">
+                    <p class="alert alert-success" style="font-weight: bold; font-size: 24px;">Free Home Delivery!!!</p>
+                </div>
+
+
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </div>
         </form>
         <br>
+        <!-- Order Summary -->
         <!-- Order Summary -->
         <div class="order-summary">
             <h3>Order Summary</h3>
@@ -69,17 +89,22 @@
             if (isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
                 // Calculate the total price of the items in the cart
                 $totalPrice = 0;
+                echo '<ol>';
                 foreach ($_SESSION['cart'] as $product) {
+                    echo '<li>' . $product['product_name'] . ' - Rs.' . $product['product_price'] . ' x ' . $product['quantity'] . '</li>';
                     $totalPrice += $product['product_price'] * $product['quantity'];
                 }
-
+                echo '</ol>';
                 echo '<p>Total Price: Rs.' . $totalPrice . '</p>';
             } else {
                 echo '<p>Your cart is empty.</p>';
             }
             ?>
         </div>
-        <a href="cart.php" class="btn btn-primary">View Cart</a>
+        <div class="text-center mt-4" style="padding-bottom: 20px;">
+            <a href="cart.php" class="btn btn-primary">View Cart</a>
+        </div>
+
 
     </div>
 

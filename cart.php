@@ -58,7 +58,7 @@
         if (!isset($_SESSION['cart'])) {
             $_SESSION['cart'] = array();
         }
-        
+
         // Display the user's name
         if (isset($_SESSION['user_id'])) {
             // Retrieve the user's name from the database based on user_id
@@ -76,7 +76,7 @@
             }
         }
 
-        echo '<h4>Welcome, ' . $firstname .' '.$lastname . '!</h4>';    
+        echo '<h4>Welcome, ' . $firstname . ' ' . $lastname . '!</h4>';
         ?>
 
         <h2 class="mb-4"><i class="fas fa-shopping-cart"></i> Your Shopping Cart</h2>
@@ -128,10 +128,10 @@
         ?>
 
         <!-- "Continue Shopping" link -->
-        <a href="product.php" class="btn btn-primary mt-4">Continue Shopping</a>
-
-        <!-- "Checkout" or "Place Order" button -->
-        <a href="checkout.php" class="btn btn-success mt-4" style="background-color: #4CAF50; color: white;">Checkout</a>
+        <div class="text-center mt-4 mt-4 mb-4">
+            <a href="product.php" class="btn btn-primary mx-2">Continue Shopping</a>
+            <a href="checkout.php" class="btn btn-success mx-2" style="background-color: #4CAF50; color: white;">Checkout</a>
+        </div>
     </div>
 
     <!-- Include Bootstrap and other scripts -->

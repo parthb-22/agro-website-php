@@ -87,7 +87,7 @@ session_start();
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
               <li class="nav-item"><a href="index.php" class="nav-item nav-link active">Home</a></li>
-              <li class="nav-item"><a href="about.html" class="nav-item nav-link">About</a></li>
+              <li class="nav-item"><a href="about.php" class="nav-item nav-link">About</a></li>
               <li class="nav-item"><a href="product.php" class="nav-item nav-link">Products</a></li>
               <div class="nav-item dropdown">
                 <a
@@ -250,48 +250,7 @@ session_start();
     <!-- About End -->
     <br />
     <br />
-    <!-- Deal Start -->
-    <!-- <div class="container-fluid deal bg-primary my-5 py-5">
-      <div class="container py-5">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-            <img
-              class="img-fluid animated pulse infinite"
-              src="img/shampoo-2.png" />
-          </div>
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-            <div class="bg-white text-center p-4">
-              <div class="border p-4">
-                <p class="mb-2">Natural & Organic Shampoo</p>
-                <h2 class="fw-bold text-uppercase mb-4">Deals of the Day</h2>
-                <h1 class="display-4 text-primary mb-4">$99.99</h1>
-                <h5>Fresh Organic Shampoo</h5>
-                <p class="mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  feugiat rutrum lectus sed auctor.
-                </p>
-                <div class="row g-0 cdt mb-4">
-                  <div class="col-3">
-                    <h1 class="display-6" id="cdt-days"></h1>
-                  </div>
-                  <div class="col-3">
-                    <h1 class="display-6" id="cdt-hours"></h1>
-                  </div>
-                  <div class="col-3">
-                    <h1 class="display-6" id="cdt-minutes"></h1>
-                  </div>
-                  <div class="col-3">
-                    <h1 class="display-6" id="cdt-seconds"></h1>
-                  </div>
-                </div>
-                <a class="btn btn-primary py-2 px-4" href="">Shop Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Deal End -->
+    
 
     <!-- Feature Start -->
     <div class="container-fluid py-5">
@@ -419,66 +378,7 @@ session_start();
     </div>
     <!-- Feature End -->
 
-    <!-- How To Use Start -->
-    <!-- <div class="container-fluid how-to-use bg-primary my-5 py-5">
-      <div class="container text-white py-5">
-        <div
-          class="mx-auto text-center wow fadeIn"
-          data-wow-delay="0.1s"
-          style="max-width: 600px">
-          <h1 class="text-white mb-3">
-            <span class="fw-light text-dark">How To Use Our</span> Natural &
-            Organic <span class="fw-light text-dark">Hair Shampoo</span>
-          </h1>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            aliquet, erat non malesuada consequat, nibh erat tempus risus.
-          </p>
-        </div>
-        <div class="row g-5">
-          <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.1s">
-            <div
-              class="btn-square rounded-circle border mx-auto mb-4"
-              style="width: 120px; height: 120px">
-              <i class="fa fa-home fa-3x text-dark"></i>
-            </div>
-            <h5 class="text-white">Wash Hair With Water</h5>
-            <hr class="w-25 bg-light my-2 mx-auto" />
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              aliquet, erat non malesuada consequat.</span
-            >
-          </div>
-          <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.3s">
-            <div
-              class="btn-square rounded-circle border mx-auto mb-4"
-              style="width: 120px; height: 120px">
-              <i class="fa fa-home fa-3x text-dark"></i>
-            </div>
-            <h5 class="text-white">Apply Shampoo On Hair</h5>
-            <hr class="w-25 bg-light my-2 mx-auto" />
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              aliquet, erat non malesuada consequat.</span
-            >
-          </div>
-          <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.5s">
-            <div
-              class="btn-square rounded-circle border mx-auto mb-4"
-              style="width: 120px; height: 120px">
-              <i class="fa fa-home fa-3x text-dark"></i>
-            </div>
-            <h5 class="text-white">Wait 5 Mins And Wash</h5>
-            <hr class="w-25 bg-light my-2 mx-auto" />
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              aliquet, erat non malesuada consequat.</span
-            >
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- How To Use End -->
+    
 
     <!-- Product Start -->
 
@@ -561,130 +461,9 @@ session_start();
     </div>
     <!-- Testimonial End -->
 
-    <!-- Blog Start -->
-    <!-- <div class="container-fluid py-5">
-      <div class="container">
-        <div
-          class="mx-auto text-center wow fadeIn"
-          data-wow-delay="0.1s"
-          style="max-width: 600px">
-          <h1 class="text-primary mb-3">
-            <span class="fw-light text-dark">From Our</span> Blog Articles
-          </h1>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            aliquet, erat non malesuada consequat, nibh erat tempus risus.
-          </p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-            <div class="blog-item border h-100 p-4">
-              <img class="img-fluid mb-4" src="img/blog-1.jpg" alt="" />
-              <a href="" class="h5 lh-base d-inline-block"
-                >Foods that are good for your hair growing</a
-              >
-              <div class="d-flex text-black-50 mb-2">
-                <div class="pe-3">
-                  <small class="fa fa-eye me-1"></small>
-                  <small>9999 Views</small>
-                </div>
-                <div class="pe-3">
-                  <small class="fa fa-comments me-1"></small>
-                  <small>9999 Comments</small>
-                </div>
-              </div>
-              <p class="mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                aliquet, erat non malesuada consequat.
-              </p>
-              <a href="" class="btn btn-outline-primary px-3">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-            <div class="blog-item border h-100 p-4">
-              <img class="img-fluid mb-4" src="img/blog-2.jpg" alt="" />
-              <a href="" class="h5 lh-base d-inline-block"
-                >How to take care of hair naturally</a
-              >
-              <div class="d-flex text-black-50 mb-2">
-                <div class="pe-3">
-                  <small class="fa fa-eye me-1"></small>
-                  <small>9999 Views</small>
-                </div>
-                <div class="pe-3">
-                  <small class="fa fa-comments me-1"></small>
-                  <small>9999 Comments</small>
-                </div>
-              </div>
-              <p class="mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                aliquet, erat non malesuada consequat.
-              </p>
-              <a href="" class="btn btn-outline-primary px-3">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-            <div class="blog-item border h-100 p-4">
-              <img class="img-fluid mb-4" src="img/blog-3.jpg" alt="" />
-              <a href="" class="h5 lh-base d-inline-block"
-                >How to use our natural & organic shampoo</a
-              >
-              <div class="d-flex text-black-50 mb-2">
-                <div class="pe-3">
-                  <small class="fa fa-eye me-1"></small>
-                  <small>9999 Views</small>
-                </div>
-                <div class="pe-3">
-                  <small class="fa fa-comments me-1"></small>
-                  <small>9999 Comments</small>
-                </div>
-              </div>
-              <p class="mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                aliquet, erat non malesuada consequat.
-              </p>
-              <a href="" class="btn btn-outline-primary px-3">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Blog End -->
+    
 
-    <!-- Newsletter Start -->
-    <!-- <div class="container-fluid newsletter bg-primary py-5 my-5">
-      <div class="container py-5">
-        <div
-          class="mx-auto text-center wow fadeIn"
-          data-wow-delay="0.1s"
-          style="max-width: 600px">
-          <h1 class="text-white mb-3">
-            <span class="fw-light text-dark">Let's Subscribe</span> The
-            Newsletter
-          </h1>
-          <p class="text-white mb-4">
-            Subscribe now to get 30% discount on any of our products
-          </p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
-            <div class="position-relative w-100 mt-3 mb-2">
-              <input
-                class="form-control w-100 py-4 ps-4 pe-5"
-                type="text"
-                placeholder="Enter Your Email"
-                style="height: 48px" />
-              <button
-                type="button"
-                class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
-                <i class="fa fa-paper-plane text-white fs-4"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Newsletter End -->
+    
 
     <!-- Footer Start -->
     <div class="container-fluid bg-white footer">
@@ -747,7 +526,7 @@ session_start();
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
             <h5 class="mb-4">Popular Link</h5>
-            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="about.php">About Us</a>
             <a class="btn btn-link" href="contact.php">Contact Us</a>
             <!-- <a class="btn btn-link" href="">Privacy Policy</a>
             <a class="btn btn-link" href="">Terms & Condition</a>

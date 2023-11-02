@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+include("connection/connect.php");  
+error_reporting(0);  
+session_start(); 
 
+?>  
 <head>
   <meta charset="utf-8" />
   <title>Worldwide Agro Store</title>
@@ -64,7 +69,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto">
             <li class="nav-item"><a href="index.php" class="nav-item nav-link active">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-item nav-link">About</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-item nav-link">About</a></li>
             <li class="nav-item"><a href="product.php" class="nav-item nav-link">Products</a></li>
             <div class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Know More</a>
@@ -356,8 +361,8 @@
         </div>
         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
           <h5 class="mb-4">Popular Link</h5>
-          <a class="btn btn-link" href="/about.html">About Us</a>
-          <a class="btn btn-link" href="/contact.php">Contact Us</a>
+          <a class="btn btn-link" href="about.php">About Us</a>
+          <a class="btn btn-link" href="contact.php">Contact Us</a>
           <!-- <a class="btn btn-link" href="">Privacy Policy</a>
               <a class="btn btn-link" href="">Terms & Condition</a>
               <a class="btn btn-link" href="">Career</a> -->
